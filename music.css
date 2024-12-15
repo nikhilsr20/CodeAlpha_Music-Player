@@ -1,0 +1,206 @@
+*{
+    background-color: black;
+    margin: 0px;
+    position:sticky;
+}
+#login{
+    border: solid rgb(197, 109, 197) 2px;
+   max-width: fit-content;
+   margin-left: 500px;
+   margin-top: 100px;
+   padding: 40px;
+   border-radius: 30px;
+   animation: nikhil 2s linear 0.5s 1 forwards;
+
+   
+}
+.body1{
+  
+    background-color: violet;
+    margin-top: 40px;
+    margin-left: 40%;
+    width: 100px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+   
+
+    
+}
+.login-page{
+    background-color:white;
+    width: 400px;
+    height: 200px;
+   
+    border: solid violet 2px;
+    border-radius: 20px;
+    
+    
+margin-top: 10px;
+}
+@keyframes nikhil{
+    0%{
+      border-top: solid rgb(222, 144, 222) 2px;;
+      border-radius: 35px;
+    }
+    20%{
+        border-right: solid rgb(187, 77, 187) 2px;;
+        border-radius: 40px;
+    }
+    40%{
+        border-top-left-radius: solid rgb(124, 39, 124) 2px;;
+        border-radius: 45px;
+    }
+    70%{
+        border-bottom: solid rgb(144, 20, 144) 2px;;
+        border-radius: 50px;
+    }
+    100%{
+        border-left: solid rgb(130, 4, 130) 2px;;
+        border-radius: 55px;
+    }
+
+}
+.video{
+ width: 200px;
+ border: solid black 1px;
+ margin-left:100px;
+ margin-top: 5%;
+ animation: nikhil2 1s linear 0.5s 1 forwards;
+ 
+}
+@keyframes nikhil2{
+    0%{
+     margin-top: 5%;
+    }
+    20%{
+        margin-top: 7%;
+    }
+    40%{
+        margin-top: 9%;
+    }
+    70%{
+        margin-top: 11%;
+    }
+    100%{
+        margin-top: 13%;
+
+    }
+
+}
+
+#email{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 160px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+#password{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+.label{
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.box{
+    display: flex;
+    
+    background-color: white;
+}
+.text{
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#check{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.heading{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 90px;
+
+    
+}
+.searchbar{
+    background-color: #f0f0f0;
+    width: 350px;
+    height: 35px;
+    border: solid gray 2px;
+    border-radius: 20px;
+    /* margin-left: 550px; */
+    margin-top: 10px;
+    color: aliceblue;
+    cursor: pointer; 
+    position: sticky;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    position: sticky;
+}
+.search-logo{
+    margin-top: 9px;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 10;
+    position: sticky;
+    
+}
+.carousel,.carousel2,.carousel3{
+    display: flex;
+    margin-left: 1px;
+    position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+  
+}
+.cards{
+    margin-left: 10px;
+}
+.image:hover{
+    border: solid #f0f0f0;
+}
+.name{
+    color: white;
+    cursor: pointer;
+}
+.art{
+    color: darkgray;
+    cursor: pointer;
+}
+.image{
+    width: 145.5px;
+    height: 150px;
+    border: solid black 1px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.top{
+    color: #f0f0f0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+    
+
+
+

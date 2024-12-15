@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+
+    <div class="app" id="login" style="display:block;" >
+        <video class="video" src="Vibez.mp4"  autoplay loop ></video>
+        <h1 class="heading">Login in to vibez</h1>
+        <div class="login-page">
+            <label class="label" for="html">E-mail</label>
+            <br>
+            <input type="text" name="" id="email" placeholder="enter your email" >
+            <br>
+            <label class="label" for="html">password</label>
+            <br>
+           <input type="text" name="" id="password" placeholder="enter your password">
+           <div class="box">
+               <input type="checkbox" name="" id="check">
+               <h4 class="text">keep me logged in..</h4>
+
+           </div>
+            <div class="body1" onclick="showPage('home')">login</div>
+        </div>
+         
+    </div>
+
+
+
+
+    
+    <div class="app" id="home" style="display:none;">
+        <div class="head">
+        <h1 class="search-logo" onclick="on('search')">🔍</h1>
+        <input class="searchbar" type="search" name="" id="search" placeholder="What do you want to play?">
+    </div>
+    <h1 class="top"><u>Popular Artists</u></h1>
+    <div class="carousel">
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bFCtAtk9v4zNEZ8--sGx-y4IWoeeLxwVhQ&s" alt="">
+            <h3 class="name">Pritam</h3>
+            <h4 class="art">Artist</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ouTMFQVPPu9ho3QnGW2sWNaU5Gf7R0eyjQ&s" alt="">
+            <h3 class="name">Arjit Singh</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeFgUCAfdWPfOz1WszQXuUdi_IZ1Y2Y8XePA&s" alt="">
+            <h3 class="name">Sonu Nigam</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdfc_OOpLWx8mZIPNeHeoycOI-wp5zxLkCA&s" alt="">
+            <h3 class="name">K K</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWl5-1o7aqLx3pkidmftYFgB14sluZg79Ig&s" alt="">
+            <h3 class="name">Stebin Ben</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbexnD0_lvbXpC2pNqHkur_lpJ30ngG1GaWQ&s" alt="">
+            <h3 class="name">Shaan</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcs13PFVan-bAaD7z9E642l68JcyOI6wcmg&s" alt="">
+            <h3 class="name">Sunidhi chauhan</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKoiXPT1QMnl9RfO9FK7XSe7oZlIWtlW9hvg&s" alt="">
+            <h3 class="name">Monali Thakur</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        <div class="cards" id="1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm6Wllmggn2ZvvICvHuNlEbtvOPl9RG6zgzQ&s" alt="">
+            <h3 class="name">Shreya ghoshal</h3>
+            <h4 class="art">Singer</h4>
+        </div>
+        
+
+        
+        
+    </div>
+      <h1 class="top"><u>Popular Album and Singles</u></h1>
+        <div class="carousel2">
+            <div class="cards" id="1">
+                <img class="image" src="https://i1.sndcdn.com/artworks-000095507625-8llrrw-t500x500.jpg" alt="">
+                <h3 class="name">Tum hi ho</h3>
+                <h4 class="art">Arjit Singh ,Pritam</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU7WEzn7THOzS94lSWU_ICcB0HeJsgCvxzTg&s" alt="">
+                <h3 class="name">Thoda Thoda Pyaar</h3>
+                <h4 class="art">Stebin Ben</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQPW3fZzrMjx15YLLNCfptnb8k_FbXnoQVdQ&s" alt="">
+                <h3 class="name">Darasal</h3>
+                <h4 class="art">Atif Aslam</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://pbs.twimg.com/media/Estidm0UYAADmw1.jpg:large" alt="">
+                <h3 class="name">Namo Namo</h3>
+                <h4 class="art">Amit Trivedi,Amitabh bhattacharya</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7B3w7WpYL6hdA0eNwpejk5LS2ITcg10sxNQ&s" alt="">
+                <h3 class="name">Parshawan</h3>
+                <h4 class="art">Harnoor</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxQbH7g3lZr52nZ6yBo6DCihxRe2UYwmuAQ&s" alt="">
+                <h3 class="name">Hamari Adhuri Kahaani </h3>
+                <h4 class="art">Arjit singh </h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrq7lucGQtuOBqestSb9Hw1fxLyJxdg5ezPw&s" alt="">
+                <h3 class="name">Pal Pal Dil Ke Pass</h3>
+                <h4 class="art">Arjit Singh</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT26cawYwGKJ56U86Pt5H2BvK-cnStyW925Lg&s" alt="">
+                <h3 class="name">Jeene Laga Hoon</h3>
+                <h4 class="art">Atif Aslam</h4>
+            </div>
+            <div class="cards" id="1">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXH8csHQA4G50uJY8tKYQHmFtlZ9TrbJ7MXQ&s" alt="">
+                <h3 class="name">Sapna Jahan</h3>
+                <h4 class="art">Sonu Nigam</h4>
+            </div>
+            
+
+        </div>
+   <h1 class="top"> <u>Party Songs</u></h1>
+   <div class="carousel3">
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckhvf55M2H_VP2wfspXdtmjiN8MTYCTC4pw&s" alt="">
+        <h3 class="name">Abhi toh party shuru hui hai</h3>
+        <h4 class="art">Baadshah</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTfRZA1pe9-I1MoBEFhSiX3-6GJdmxbSpGOg&s" alt="">
+        <h3 class="name">Kusu Kusu</h3>
+        <h4 class="art">Zarah S Khan</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIPXp-Ij5Y9DDqC0VT7jLlvSpoL7AHWUlDg&s" alt="">
+        <h3 class="name">O saki saki</h3>
+        <h4 class="art">Neha Kakkar</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXlzwTnxkLwVwcAxq8OnL6kTkL6qX5Uik3rA&s" alt="">
+        <h3 class="name">Coca Cola</h3>
+        <h4 class="art">Tony Kakkar,Neha Kakkar</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIbuxbfhmm-M_IZYpKGbKLQ8rL-Vys_fo-Kw&s" alt="">
+        <h3 class="name">Galti se Mistake</h3>
+        <h4 class="art">Arjit Singh</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22oW442OqH_8Biddjbp27Ck1qrVQtKliG2w&s" alt="">
+        <h3 class="name">Main Tera Hero</h3>
+        <h4 class="art">Arjit singh,Sazid-Wazid </h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv1W9oxaCVLPv_8CkvDirJCxt3kNy0IW04RA&s" alt="">
+        <h3 class="name">Main tera boyfiend</h3>
+        <h4 class="art">Arjit Singh</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRfBl1gGe2cihYmWxbsFKOKNKz_7xpd3ZAQ&s" alt="">
+        <h3 class="name">Bom Diggy Diggy</h3>
+        <h4 class="art">Zack,Honey singh</h4>
+    </div>
+    <div class="cards" id="1">
+        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDEvy9v2UPeVweH3fgP2EZJFuF1Q11akHnA&s" alt="">
+        <h3 class="name">Sunny sunny</h3>
+        <h4 class="art">Honey Singh</h4>
+    </div>
+
+
+       
+    </div>
+
+    
+    <script src="music.js"></script>
+</body>
+</html>
+
+
+
+
