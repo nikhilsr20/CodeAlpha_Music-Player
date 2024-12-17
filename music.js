@@ -22,3 +22,20 @@ function showPage() {
 function on(){
     document.getElementById('search').focus();
 }
+function show(idi) {
+    document.getElementById('home').style.display = "none";
+    document.querySelectorAll(".cards").forEach(div => div.style.display = "none");
+    document.getElementById(idi).style.display = "block";
+
+}
+function opacity(){
+    document.getElementById('image11').style.opacity="0.6"
+}
+function song(song){
+    document.querySelectorAll(".inside").forEach(div => div.style.display = "none");
+    document.querySelectorAll(".pritam-song").forEach(div => div.style.display = "none");
+    document.getElementById(song).style.display = "block";
+   let a= document.getElementById(song+"1")
+   a.play();
+  
+}
