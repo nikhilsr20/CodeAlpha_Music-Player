@@ -37,5 +37,19 @@ function song(song){
     document.getElementById(song).style.display = "block";
    let a= document.getElementById(song+"1")
    a.play();
+   document.getElementById('101').addEventListener("click",()=>{
+      a.currentTime-=5;
+   })
+   document.getElementById('103').addEventListener("click",()=>{
+    a.currentTime+=5;
+ })
+ document.getElementById('102').addEventListener("click",()=>{
+    if(a.paused){
+        a.play();
+    }
+    else{
+        a.pause()
+    }
+ })
   
 }
