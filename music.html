@@ -82,7 +82,7 @@
             <h3 class="name">Monali Thakur</h3>
             <h4 class="art">Singer</h4>
         </div>
-        <div class="cards"  onclick="showPage('9')">
+        <div class="cards"  onclick="show('9')">
             <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm6Wllmggn2ZvvICvHuNlEbtvOPl9RG6zgzQ&s" alt="">
             <h3 class="name">Shreya ghoshal</h3>
             <h4 class="art">Singer</h4>
@@ -210,36 +210,36 @@
 
 <div class="songs">
 <div class="tag">Popular</div>
-<div class="list">
-    <div class="song-1" onclick="song('pritam-song-tumsehi')">
+<div class="list" id="pritam">
+    <div class="song-1" onclick="cell1='1';song('pritam-song-tumsehi')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnr8Ql3Na_Cy1y2KZJOj0B-Gzt1Wsrqi_NmA&s" alt="">
     </div>
         <h1 class="song-1-name">Tum se hi</h1>
     </div>
-    <div class="song-1" onclick="song('pritam-song-Omaahi')" >
+    <div class="song-1" onclick="cell1='1';song('pritam-song-Omaahi')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJCBaAeeAF11bXWTjPWZxwXBKGAl9JLXKyXQ&s" alt="">
     </div>
         <h1 class="song-1-name" >O Maahi</h1>
     </div>
-    <div class="song-1" onclick="song('pritam-song-shayad')">
+    <div class="song-1" onclick="cell1='1';song('pritam-song-shayad')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTreIEnh5w_AAVl8XoVmSI1_tH4mpM0EPgeUA&s" alt="">
     </div>
         <h1 class="song-1-name">Shayad</h1>
     </div>
-    <div class="song-1" onclick="song('pritam-song-terahone')">
+    <div class="song-1" onclick="cell1='1';song('pritam-song-terahone')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKmPE-XDbCCRGmdxnHYnHIrJAZy9udBXTaMA&s" alt="">
     </div>
         <h1 class="song-1-name">Tera Hone Laga Hoon</h1>
     </div>
-    <div class="song-1" onclick="song('pritam-song-kesariya')">
+    <div class="song-1" onclick="cell1='1';song('pritam-song-kesariya')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7toeArJ5Zorx05ep9YIyz_dpzzaamXA42lg&s" alt="">
@@ -267,35 +267,35 @@
 <div class="songs">
 <div class="tag">Popular</div>
 <div class="list">
-    <div class="song-1" onclick="song2('Arijit-song-satranga')">
+    <div class="song-1" onclick="cell1='2';song('Arijit-song-satranga')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65BMEPSWjha6DDdiTbciScavB6eKQIf9hKQ&s" alt="">
     </div>
         <h1 class="song-1-name">Satranga</h1>
     </div>
-    <div class="song-1" onclick="song2('Arijit-song-Omaahi')" >
+    <div class="song-1" onclick="cell1='2';song('Arijit-song-Omaahi')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJCBaAeeAF11bXWTjPWZxwXBKGAl9JLXKyXQ&s" alt="">
     </div>
         <h1 class="song-1-name" >O Maahi</h1>
     </div>
-    <div class="song-1" onclick="song2('Arijit-song-shayad')">
+    <div class="song-1" onclick="cell1='2';song('Arijit-song-shayad')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTreIEnh5w_AAVl8XoVmSI1_tH4mpM0EPgeUA&s" alt="">
     </div>
         <h1 class="song-1-name">Shayad</h1>
     </div>
-    <div class="song-1" onclick="song2('Arijit-song-tumhiho')">
+    <div class="song-1" onclick="cell1='2';song('Arijit-song-tumhiho')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVjleu2vAKIoCd32kgvX7MgUZsA8P6qNBDw&s" alt="">
     </div>
         <h1 class="song-1-name">Tum hi ho</h1>
     </div>
-    <div class="song-1" onclick="song2('Arijit-song-aasannhi')">
+    <div class="song-1" onclick="cell1='2';song('Arijit-song-aasannhi')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOvaibw13oV3Rjt_oBOE8RwXq7uzuMZwAEg&s" alt="">
@@ -333,35 +333,35 @@
 <div class="songs">
 <div class="tag">Popular</div>
 <div class="list">
-    <div class="song-1" onclick="song3('sonu-song-sapna')">
+    <div class="song-1" onclick="cell1='3';song('sonu-song-sapna')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrnMH8HVxhOw8bWjHYF9zUamD0Bw7nXmPv6Q&s" alt="">
     </div>
         <h1 class="song-1-name">Sapna Jahan</h1>
     </div>
-    <div class="song-1" onclick="song3('sonu-song-abhimujhme')" >
+    <div class="song-1" onclick="cell1='3';song('sonu-song-abhimujhme')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2J4nGGHerV9ongfaHTgocijN81oVHYa84Q&s" alt="">
     </div>
         <h1 class="song-1-name" >Abhi mujhme mein kahin</h1>
     </div>
-    <div class="song-1" onclick="song3('sonu-song-sandese')">
+    <div class="song-1" onclick="cell1='3';song('sonu-song-sandese')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7TpwKDbrmqzfL6dAEANaQ2Z1OEn1M7tE3Q&s" alt="">
     </div>
         <h1 class="song-1-name">Sandese aate hai</h1>
     </div>
-    <div class="song-1" onclick="song3('sonu-song-meredholna')">
+    <div class="song-1" onclick="cell1='3';song('sonu-song-meredholna')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHPUntmPBFTgz3Wctd94YwDIOtNl8ynOkGQw&s" alt="">
     </div>
         <h1 class="song-1-name">Mere Dholna 3.0</h1>
     </div>
-    <div class="song-1" onclick="song3('sonu-song-papa')">
+    <div class="song-1" onclick="cell1='3';song('sonu-song-papa')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOvaibw13oV3Rjt_oBOE8RwXq7uzuMZwAEg&s" alt="">
@@ -391,35 +391,35 @@
 <div class="songs">
 <div class="tag">Popular</div>
 <div class="list">
-    <div class="song-1" onclick="song4('kk-song-ajabsi')">
+    <div class="song-1" onclick="cell1='4';song('kk-song-ajabsi')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Ajab%20Si%20-%20Om%20Shanti%20Om%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Ajab si</h1>
     </div>
-    <div class="song-1" onclick="song4('kk-song-dil')" >
+    <div class="song-1" onclick="cell1='4';song('kk-song-dil')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Dil%20Ibaadat%20-%20Tum%20Mile%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name" >Dil ibaadat</h1>
     </div>
-    <div class="song-1" onclick="song4('kk-song-khuda')">
+    <div class="song-1" onclick="cell1='4';song('kk-song-khuda')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Tu%20Jo%20Mila%20-%20Bajrangi%20Bhaijaan%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Khuda jaane</h1>
     </div>
-    <div class="song-1" onclick="song4('kk-song-merimaa')">
+    <div class="song-1" onclick="cell1='4';song('kk-song-merimaa')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Khuda%20Jaane%20-%20Bachna%20Ae%20Haseeno%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Meri maa</h1>
     </div>
-    <div class="song-1" onclick="song4('kk-song-tujomila')">
+    <div class="song-1" onclick="cell1='4';song('kk-song-tujomila')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Meri%20Maa%20-%20Yaariyan%20128%20Kbps.jpg" alt="">
@@ -448,35 +448,35 @@
 <div class="songs">
 <div class="tag">Popular</div>
 <div class="list">
-    <div class="song-1" onclick="song5('stebin-song-baarishban')">
+    <div class="song-1" onclick="cell1='5';song('stebin-song-baarishban')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Baarish%20Ban%20Jaana%20-%20Payal%20Dev%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Baarish ban jana</h1>
     </div>
-    <div class="song-1" onclick="song5('stebin-song-pyaarkrte')" >
+    <div class="song-1" onclick="cell1='5';song('stebin-song-pyaarkrte')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Pyaar%20Karte%20Ho%20Na%20-%20Stebin%20Ben%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name" >Pyaar krte ho na</h1>
     </div>
-    <div class="song-1" onclick="song5('stebin-song-tummile')">
+    <div class="song-1" onclick="cell1='5';song('stebin-song-tummile')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Tu%20Mile%20Dil%20Khile%20-%20Asees%20Kaur%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Tum mile dil khile</h1>
     </div>
-    <div class="song-1" onclick="song5('stebin-song-baarish')">
+    <div class="song-1" onclick="cell1='5';song('stebin-song-baarish')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Baarish%20-%20Payal%20Dev%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Baarish </h1>
     </div>
-    <div class="song-1" onclick="song5('stebin-song-jaana')">
+    <div class="song-1" onclick="cell1='5';song('stebin-song-jaana')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Jaana%20-%20Stebin%20Ben%20128%20Kbps.jpg" alt="">
@@ -505,35 +505,35 @@
 <div class="songs">
 <div class="tag">Popular</div>
 <div class="list">
-    <div class="song-1" onclick="song6('atif-song-mainagar')">
+    <div class="song-1" onclick="cell1='6';song('atif-song-mainagar')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Main%20Agar%20(Film%20Version)%20-%20Tubelight%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Main agar</h1>
     </div>
-    <div class="song-1" onclick="song6('atif-song-honatha')" >
+    <div class="song-1" onclick="cell1='6';song('atif-song-honatha')" >
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://www.pagalworld.online/GpE34Kg9Gq/12054/thumb-atif-aslam-mega-hits-mp3-songs-300.jpg" alt="">
     </div>
         <h1 class="song-1-name" >Hona tha pyaar</h1>
     </div>
-    <div class="song-1" onclick="song6('atif-song-selfish')">
+    <div class="song-1" onclick="cell1='6';song('atif-song-selfish')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Tera%20Hone%20Laga%20Hoon%20-%20Ajab%20Prem%20Ki%20Ghazab%20Kahani%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Tera hone laga hoon</h1>
     </div>
-    <div class="song-1" onclick="song6('atif-song-jeenelaga')">
+    <div class="song-1" onclick="cell1='6';song('atif-song-jeenelaga')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://pagalfree.com/images/128Jeene%20Laga%20Hoon%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.jpg" alt="">
     </div>
         <h1 class="song-1-name">Jeene laga hoon</h1>
     </div>
-    <div class="song-1" onclick="song6('atif-song-tajdar')">
+    <div class="song-1" onclick="cell1='6';song('atif-song-tajdar')">
         <div class="pass">
             <h1 class="play" >▶︎</h1>
         <img class="song-1-image" src="https://www.pagalworld.online/GpE34Kg9Gq/9899/thumb-coke-studio-2015-mp3-songs-300.jpg" alt="">
@@ -546,9 +546,186 @@
 </div>
 
 </div>
-<div class="inside" id="7" style="display: none;"></div>
-<div class="inside" id="8" style="display: none;"></div>
-<div class="inside" id="9" style="display: none;"></div>
+<div class="inside" id="7" style="display: none;">
+
+
+
+
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="">
+    
+   
+</div>
+    <div class="box-11">
+    <h1 class="artist-name">Sunidhi chauhan</h1>
+    <img class="image11" src="https://media.gettyimages.com/id/2174095992/photo/mumbai-india-june-12-sunidhi-chauhan-poses-for-a-photoshoot-at-her-house-in-oshiwara-mumbai.jpg?s=612x612&w=0&k=20&c=ArwLODbG85jrdoyIk0QUc9FJ04fM9Q2RJyj9d60O5as=" alt="" onscroll="opacity()">
+</div>
+
+<div class="songs">
+<div class="tag">Popular</div>
+<div class="list">
+    <div class="song-1" onclick="cell1='7';song('sunidhi-song-kashmir')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Kashmir%20Main,%20Tu%20Kanyakumari%20-%20Chennai%20Express%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Kashmir tu main kanyakumari</h1>
+    </div>
+    <div class="song-1" onclick="cell1='7';song('sunidhi-song-gun')" >
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Gun%20Gun%20Guna%20-%20Agneepath%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name" >Gun gun guna</h1>
+    </div>
+    <div class="song-1" onclick="cell1='7';song('sunidhi-song-desi')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Desi%20Girl%20-%20Dostana%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Desi girl</h1>
+    </div>
+    <div class="song-1" onclick="cell1='7';song('sunidhi-song-saami')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Saami%20Saami%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Saami Saami</h1>
+    </div>
+    <div class="song-1" onclick="cell1='7';song('sunidhi-song-joru')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalnew.com/coverimages/Joru-Ka-Ghulam-Sunidhi-Chauhan-500-500.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Joru ka gulam</h1>
+    </div>
+    
+  
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="inside" id="8" style="display: none;">
+
+
+
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="">
+    
+   
+</div>
+    <div class="box-11">
+    <h1 class="artist-name">Monali Thakur</h1>
+    <img class="image11" src="https://stat5.bollywoodhungama.in/wp-content/uploads/2016/03/431387684-480x360.jpg" alt="" onscroll="opacity()">
+</div>
+
+<div class="songs">
+<div class="tag">Popular</div>
+<div class="list">
+    <div class="song-1" onclick="cell1='8';song('monali-song-haan')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Haan%20Ke%20Haan%20-%20Maharaj%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Haan ke haan</h1>
+    </div>
+    <div class="song-1" onclick="cell1='8';song('monali-song-badri')" >
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Badri%20Ki%20Dulhania%20(Title%20Track)-%20Badrinath%20Ki%20Dulhania%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name" >Badri ki dulhaniya</h1>
+    </div>
+    <div class="song-1" onclick="cell1='8';song('monali-song-sawar')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Sawaar%20Loon%20-%20Lootera%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Sawar loon</h1>
+    </div>
+    <div class="song-1" onclick="cell1='8';song('monali-song-anjaana')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Anjaana%20Anjaani%20Ki%20Kahani%20-%20Anjaana%20Anjaani%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Anjaana anjaana ki kahaani</h1>
+    </div>
+    <div class="song-1" onclick="cell1='8';song('monali-song-cham')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Cham%20Cham%20-%20Baaghi%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Cham Cham</h1>
+    </div>
+    
+  
+</div>
+</div>
+</div>
+<div class="inside" id="9" style="display: none;">
+
+
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="">
+    
+   
+</div>
+    <div class="box-11">
+    <h1 class="artist-name">Shreya Ghoshal</h1>
+    <img class="image11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLL8HBRHac3Rh3rPQiZNnWATP9DRL8qupUPg&s" alt="" onscroll="opacity()">
+</div>
+
+<div class="songs">
+<div class="tag">Popular</div>
+<div class="list">
+    <div class="song-1" onclick="cell1='9';song('shreya-song-guli')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Guli%20Mata%20-%20Saad%20Lamjarred%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Guli mata</h1>
+    </div>
+    <div class="song-1" onclick="cell1='9';song('shreya-song-hasi')" >
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Hasi%20(Female%20Version)%20-%20Hamari%20Adhuri%20Kahani%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name" >Hasi</h1>
+    </div>
+    <div class="song-1" onclick="cell1='9';song('shreya-song-angaro')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Angaaron%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Angaaron </h1>
+    </div>
+    <div class="song-1" onclick="cell1='9';song('shreya-song-chikni')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Chikni%20Chameli%20-%20Agneepath%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Chikni chameli</h1>
+    </div>
+    <div class="song-1" onclick="cell1='9';song('shreya-song-yimmy')">
+        <div class="pass">
+            <h1 class="play" >▶︎</h1>
+        <img class="song-1-image" src="https://pagalfree.com/images/128Yimmy%20Yimmy%20-%20Shreya%20Ghoshal%20128%20Kbps.jpg" alt="">
+    </div>
+        <h1 class="song-1-name">Yimmy Yimmy</h1>
+    </div>
+    
+  
+</div>
+</div>
+</div>
 
 
 
@@ -560,7 +737,7 @@
 
 <div class="pritam-song" id="pritam-song-tumsehi" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='11';reverse('pritam-song-tumsehi1')">
 </div>
     <div class="song-card">
         <img class="jab" src="Jab we met hd wallpaper.jpeg" alt="">
@@ -576,7 +753,7 @@
 
 <div class="pritam-song" id="pritam-song-Omaahi" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='11';reverse('pritam-song-Omaahi1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9SwcEAQFIlFCDlUh3TAs6hbuZrPOz3BalA&s" alt="">
@@ -591,7 +768,7 @@
 </div>
 <div class="pritam-song" id="pritam-song-shayad" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='11';reverse('pritam-song-shayad1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGHXIpT0IAKTr5Ks-w9B5Wf2Vv1MYdALoMdw&s" alt="">
@@ -606,7 +783,7 @@
 </div>
 <div class="pritam-song" id="pritam-song-terahone" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='11';reverse('pritam-song-terahone1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNX5uwmHkToyoDO7fm8DYVOdPXEJDBK6xqmw&s" alt="">
@@ -621,7 +798,7 @@
 </div>
 <div class="pritam-song" id="pritam-song-kesariya" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='11';reverse('pritam-song-kesariya1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnsFikyQrSloCZTN-sQvHjl2AYv91xIsoGg&s" alt="">
@@ -655,8 +832,9 @@
 
 <div class="Arijit-song" id="Arijit-song-satranga" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='2';reverse('Arijit-song-satranga1')">
 </div>
+<div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65BMEPSWjha6DDdiTbciScavB6eKQIf9hKQ&s" alt="">
         <div class="control-panel">
@@ -664,14 +842,14 @@
         <h1 ><img class="back" id="202" src="Untitled design (5).png" alt="" ></h1>
         <h1 ><img class="back" id="203" src="Untitled design (6).png" alt="" ></h1>
     </div>
-   
     </div>
+</div>
     <audio id="Arijit-song-satranga1" src="https://pagalfree.com/musics/128-Satranga%20-%20Animal%20128%20Kbps.mp3" ></audio>
 </div>
 
 <div class="Arijit-song" id="Arijit-song-Omaahi" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='2';reverse('Arijit-song-Omaahi1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9SwcEAQFIlFCDlUh3TAs6hbuZrPOz3BalA&s" alt="">
@@ -686,7 +864,7 @@
 </div>
 <div class="Arijit-song" id="Arijit-song-shayad" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='2';reverse('Arijit-song-shayad1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGHXIpT0IAKTr5Ks-w9B5Wf2Vv1MYdALoMdw&s" alt="">
@@ -701,7 +879,7 @@
 </div>
 <div class="Arijit-song" id="Arijit-song-tumhiho" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='2';reverse('Arijit-song-tumhiho1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVjleu2vAKIoCd32kgvX7MgUZsA8P6qNBDw&s" alt="">
@@ -716,7 +894,7 @@
 </div>
 <div class="Arijit-song" id="Arijit-song-aasannhi" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='2';reverse('Arijit-song-aasannhi1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOvaibw13oV3Rjt_oBOE8RwXq7uzuMZwAEg&s" alt="">
@@ -741,7 +919,7 @@
 
 <div class="sonu-song" id="sonu-song-sapna" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='3';reverse('sonu-song-sapna1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrnMH8HVxhOw8bWjHYF9zUamD0Bw7nXmPv6Q&s" alt="">
@@ -757,7 +935,7 @@
 
 <div class="sonu-song" id="sonu-song-abhimujhme" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt=""onclick="cell2='3';reverse('sonu-song-abhimujhme1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2J4nGGHerV9ongfaHTgocijN81oVHYa84Q&s" alt="">
@@ -772,7 +950,7 @@
 </div>
 <div class="sonu-song" id="sonu-song-sandese" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='3';reverse('sonu-song-sandese1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7TpwKDbrmqzfL6dAEANaQ2Z1OEn1M7tE3Q&s" alt="">
@@ -787,7 +965,7 @@
 </div>
 <div class="sonu-song" id="sonu-song-meredholna" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='3';reverse('sonu-song-meredholna1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Mere%20Dholna%203.0%20-%20Bhool%20Bhulaiyaa%203%20128%20Kbps.jpg" alt="">
@@ -802,7 +980,7 @@
 </div>
 <div class="sonu-song" id="sonu-song-papa" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='3';reverse('sonu-song-papa1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Papa%20Meri%20Jaan%20-%20Animal%20128%20Kbps.jpg" alt="">
@@ -823,7 +1001,7 @@
 
 <div class="kk-song" id="kk-song-ajabsi" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='4';reverse('kk-song-ajabsi1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Ajab%20Si%20-%20Om%20Shanti%20Om%20128%20Kbps.jpg" alt="">
@@ -839,7 +1017,7 @@
 
 <div class="kk-song" id="kk-song-dil" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='4';reverse('kk-song-dil1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Dil%20Ibaadat%20-%20Tum%20Mile%20128%20Kbps.jpg" alt="">
@@ -854,7 +1032,7 @@
 </div>
 <div class="kk-song" id="kk-song-khuda" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='4';reverse('kk-song-khuda1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Khuda%20Jaane%20-%20Bachna%20Ae%20Haseeno%20128%20Kbps.jpg" alt="">
@@ -869,7 +1047,7 @@
 </div>
 <div class="kk-song" id="kk-song-merimaa" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='4';reverse('kk-song-merimaa1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Meri%20Maa%20-%20Yaariyan%20128%20Kbps.jpg" alt="">
@@ -884,7 +1062,7 @@
 </div>
 <div class="kk-song" id="kk-song-tujomila" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='4';reverse('kk-song-tujomila1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Tu%20Jo%20Mila%20-%20Bajrangi%20Bhaijaan%20128%20Kbps.jpg" alt="">
@@ -903,7 +1081,7 @@
 
 <div class="stebin-song" id="stebin-song-baarishban" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='5';reverse('stebin-song-baarishban1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Baarish%20Ban%20Jaana%20-%20Payal%20Dev%20128%20Kbps.jpg" alt="">
@@ -919,7 +1097,7 @@
 
 <div class="stebin-song" id="stebin-song-pyaarkrte" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='5';reverse('stebin-song-pyaarkrte1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Pyaar%20Karte%20Ho%20Na%20-%20Stebin%20Ben%20128%20Kbps.jpg" alt="">
@@ -937,7 +1115,7 @@
         <img class="homeimg" src="Untitled design (2).png" alt="">
 </div>
     <div class="song-card">
-        <img class="jab" src="https://pagalfree.com/images/128Tu%20Mile%20Dil%20Khile%20-%20Asees%20Kaur%20128%20Kbps.jpg" alt="">
+        <img class="jab" src="https://pagalfree.com/images/128Tu%20Mile%20Dil%20Khile%20-%20Asees%20Kaur%20128%20Kbps.jpg" alt="" onclick="cell2='5';reverse('stebin-song-tummile1')">
         <div class="control-panel">
         <h1 ><img class="back" id="507" src="Untitled design (4).png" alt="" ></h1>
         <h1 ><img class="back" id="508" src="Untitled design (5).png" alt="" ></h1>
@@ -949,7 +1127,7 @@
 </div>
 <div class="stebin-song" id="stebin-song-baarish" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='5';reverse('stebin-song-baarish1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Baarish%20-%20Payal%20Dev%20128%20Kbps.jpg" alt="">
@@ -964,7 +1142,7 @@
 </div>
 <div class="stebin-song" id="stebin-song-jaana" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='5';reverse('stebin-song-jaana1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Jaana%20-%20Stebin%20Ben%20128%20Kbps.jpg" alt="">
@@ -994,7 +1172,7 @@
 
 <div class="atif-song" id="atif-song-mainagar" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='6';reverse('atif-song-mainagar1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Main%20Agar%20(Film%20Version)%20-%20Tubelight%20128%20Kbps.jpg" alt="">
@@ -1010,7 +1188,7 @@
 
 <div class="atif-song" id="atif-song-honatha" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='6';reverse('atif-song-honatha1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://www.pagalworld.online/GpE34Kg9Gq/12054/thumb-atif-aslam-mega-hits-mp3-songs-300.jpg" alt="">
@@ -1025,7 +1203,7 @@
 </div>
 <div class="atif-song" id="atif-song-selfish" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='6';reverse('atif-song-selfish1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Tera%20Hone%20Laga%20Hoon%20-%20Ajab%20Prem%20Ki%20Ghazab%20Kahani%20128%20Kbps.jpg" alt="">
@@ -1040,7 +1218,7 @@
 </div>
 <div class="atif-song" id="atif-song-jeenelaga" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='6';reverse('atif-song-jeenelaga1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://pagalfree.com/images/128Jeene%20Laga%20Hoon%20-%20Ramaiya%20Vastavaiya%20128%20Kbps.jpg" alt="">
@@ -1055,7 +1233,7 @@
 </div>
 <div class="atif-song" id="atif-song-tajdar" style="display: none;">
     <div class="head">
-        <img class="homeimg" src="Untitled design (2).png" alt="">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='6';reverse('atif-song-tajdar1')">
 </div>
     <div class="song-card">
         <img class="jab" src="https://www.pagalworld.online/GpE34Kg9Gq/9899/thumb-coke-studio-2015-mp3-songs-300.jpg" alt="">
@@ -1073,6 +1251,254 @@
 
 
 
+
+
+
+
+<div class="sunidhi-song" id="sunidhi-song-kashmir" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='7';reverse('sunidhi-song-kashmir1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Kashmir%20Main,%20Tu%20Kanyakumari%20-%20Chennai%20Express%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="701" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="702" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="703" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+   
+    </div>
+    <audio id="sunidhi-song-kashmir1" src="https://pagalfree.com/musics/128-Kashmir%20Main,%20Tu%20Kanyakumari%20-%20Chennai%20Express%20128%20Kbps.mp3" ></audio>
+</div>
+
+<div class="sunidhi-song" id="sunidhi-song-gun" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='7';reverse('sunidhi-song-gun1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Gun%20Gun%20Guna%20-%20Agneepath%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="704" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="705" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="706" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="sunidhi-song-gun1" src="https://pagalfree.com/musics/128-Gun%20Gun%20Guna%20-%20Agneepath%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="sunidhi-song" id="sunidhi-song-desi" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='7';reverse('sunidhi-song-desi1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Desi%20Girl%20-%20Dostana%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="707" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="708" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="709" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="sunidhi-song-desi1" src="https://pagalfree.com/musics/128-Desi%20Girl%20-%20Dostana%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="sunidhi-song" id="sunidhi-song-saami" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='7';reverse('sunidhi-song-saami1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Saami%20Saami%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="710" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="711" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="712" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="sunidhi-song-saami1" src="https://pagalfree.com/musics/128-Saami%20Saami%20-%20Pushpa%20-%20The%20Rise%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="sunidhi-song" id="sunidhi-song-joru" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Joru%20Ka%20Ghulam%20-%20Joru%20Ka%20Ghulam%20128%20Kbps.jpg" alt="" onclick="cell2='7';reverse('sunidhi-song-joru1')">
+        <div class="control-panel">
+        <h1 ><img class="back" id="713" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="714" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="715" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="sunidhi-song-joru1" src="https://pagalfree.com/musics/128-Joru%20Ka%20Ghulam%20-%20Joru%20Ka%20Ghulam%20128%20Kbps.mp3" ></audio>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="monali-song" id="monali-song-haan" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='8';reverse('monali-song-haan1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Haan%20Ke%20Haan%20-%20Maharaj%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="801" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="802" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="803" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+   
+    </div>
+    <audio id="monali-song-haan1" src="https://pagalfree.com/musics/128-Haan%20Ke%20Haan%20-%20Maharaj%20128%20Kbps.mp3" ></audio>
+</div>
+
+<div class="monali-song" id="monali-song-badri" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='8';reverse('monali-song-badri1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Badri%20Ki%20Dulhania%20(Title%20Track)-%20Badrinath%20Ki%20Dulhania%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="804" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="805" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="806" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="monali-song-badri1" src="https://pagalfree.com/musics/128-Badri%20Ki%20Dulhania%20(Title%20Track)-%20Badrinath%20Ki%20Dulhania%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="monali-song" id="monali-song-sawar" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='8';reverse('monali-song-sawar1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Sawaar%20Loon%20-%20Lootera%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="807" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="808" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="809" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="monali-song-sawar1" src="https://pagalfree.com/musics/128-Sawaar%20Loon%20-%20Lootera%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="monali-song" id="monali-song-anjaana" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='8';reverse('monali-song-anjaana1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Anjaana%20Anjaani%20Ki%20Kahani%20-%20Anjaana%20Anjaani%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="810" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="811" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="812" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="monali-song-anjaana1" src="https://pagalfree.com/musics/128-Anjaana%20Anjaani%20Ki%20Kahani%20-%20Anjaana%20Anjaani%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="monali-song" id="monali-song-cham" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='8';reverse('monali-song-cham1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Cham%20Cham%20-%20Baaghi%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="813" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="814" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="815" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="monali-song-cham1" src="https://pagalfree.com/musics/128-Cham%20Cham%20-%20Baaghi%20128%20Kbps.mp3" ></audio>
+
+</div>
+
+
+
+
+
+<div class="shreya-song" id="shreya-song-guli" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='9';reverse('shreya-song-guli1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Guli%20Mata%20-%20Saad%20Lamjarred%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="901" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="902" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="903" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+   
+    </div>
+    <audio id="shreya-song-guli1" src="https://pagalfree.com/musics/128-Guli%20Mata%20-%20Saad%20Lamjarred%20128%20Kbps.mp3" ></audio>
+</div>
+
+<div class="shreya-song" id="shreya-song-hasi" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='9';reverse('shreya-song-hasi1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Hasi%20(Female%20Version)%20-%20Hamari%20Adhuri%20Kahani%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="904" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="905" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="906" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="shreya-song-hasi1" src="https://pagalfree.com/musics/128-Hasi%20(Female%20Version)%20-%20Hamari%20Adhuri%20Kahani%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="shreya-song" id="shreya-song-angaro" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='9';reverse('shreya-song-angaro1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Angaaron%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="907" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="908" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="909" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="shreya-song-angaro1" src="https://pagalfree.com/musics/128-Angaaron%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="shreya-song" id="shreya-song-chikni" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='9';reverse('shreya-song-chikni1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Chikni%20Chameli%20-%20Agneepath%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="910" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="911" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="912" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="shreya-song-chikni1" src="https://pagalfree.com/musics/128-Chikni%20Chameli%20-%20Agneepath%20128%20Kbps.mp3" ></audio>
+</div>
+<div class="shreya-song" id="shreya-song-yimmy" style="display: none;">
+    <div class="head">
+        <img class="homeimg" src="Untitled design (2).png" alt="" onclick="cell2='9';reverse('shreya-song-yimmy1')">
+</div>
+    <div class="song-card">
+        <img class="jab" src="https://pagalfree.com/images/128Yimmy%20Yimmy%20-%20Shreya%20Ghoshal%20128%20Kbps.jpg" alt="">
+        <div class="control-panel">
+        <h1 ><img class="back" id="913" src="Untitled design (4).png" alt="" ></h1>
+        <h1 ><img class="back" id="914" src="Untitled design (5).png" alt="" ></h1>
+        <h1 ><img class="back" id="915" src="Untitled design (6).png" alt="" ></h1>
+    </div>
+    
+    </div>
+    <audio id="shreya-song-yimmy1" src="https://pagalfree.com/musics/128-Yimmy%20Yimmy%20-%20Shreya%20Ghoshal%20128%20Kbps.mp3 "></audio>
+
+</div>
     <script src="music.js" defer></script>
 </body>
 </html>
