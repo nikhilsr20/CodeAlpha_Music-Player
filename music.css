@@ -139,6 +139,10 @@ margin-top: 10px;
 
     
 }
+.hidden {
+    display: none;
+}
+
 .searchbar{
     background-color: #f0f0f0;
     width: 350px;
@@ -147,16 +151,18 @@ margin-top: 10px;
     border-radius: 20px;
     /* margin-left: 550px; */
     margin-top: 10px;
-    color: aliceblue;
+    color: rgb(13, 14, 15);
     cursor: pointer; 
     position: sticky;
 }
 .head{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    /* margin: 10px; */
     position: sticky;
     z-index: 1000;
+    background-color: #100610;
+    position: sticky;
 }
 .search-logo{
     margin-top: 9px;
@@ -229,8 +235,8 @@ margin-top: 10px;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(146, 94, 94, 0.5);
-  color: white;
+  background-color: rgba(95, 86, 86, 0.5);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
    z-index: 100;
@@ -238,7 +244,7 @@ margin-top: 10px;
     font-size: 100px;
 }
 .box-11{
-box-shadow:35px 35px 35px 30px rgb(99, 59, 59);
+box-shadow:35px 35px 35px 30px rgb(78, 77, 78);
 width: 100%;
 opacity: 0.8;
 
