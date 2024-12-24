@@ -24,7 +24,7 @@ function on(){
 }
 function show(idi) {
     document.getElementById('home').style.display = "none";
-    document.querySelectorAll(".cards").forEach(div => div.style.display = "none");
+  
     document.getElementById(idi).style.display = "block";
 
 }
@@ -157,11 +157,6 @@ function filterCards() {
         }
     });
 }
-function resetFilter() {
-    document.getElementById('search').value = ''; 
-    filterCards(); 
-}
-document.getElementById('search').addEventListener('input', filterCards);
 
 
 function reverse(yo){
@@ -240,7 +235,7 @@ function singleback(h){
 }
 function showhome(ok){
     document.getElementById('home').style.display = "block";
-    document.querySelectorAll(".cards").forEach(div => div.style.display = "block");
+   
     document.getElementById(ok).style.display = "none";
     
 }
